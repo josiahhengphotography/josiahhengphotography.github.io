@@ -28,6 +28,12 @@
 
     {% block content %}{% endblock %}
 
+
+
+		<!-- RETURN TO TOP - END -->
+		<a href="javascript:" id="return-to-top"><i class="icon-chevron-up"></i></a>
+
+
     <script src="{{baseUrl}}../scripts/main.js"></script>
     {% block scripts %}
     

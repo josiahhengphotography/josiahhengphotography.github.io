@@ -1,0 +1,59 @@
+<!-- Sidebar -->
+<section id="sidebar-wrapper">
+  <ul class="sidebar-nav">
+    <li class="sidebar-brand">
+      <a href="index.html">
+        <div class="logo-resize">
+          <img style="width: 100px; height: 87px;" src="images/new-logo.png">
+        </div>
+      </a>
+    </li>
+
+    <article>
+      <ul class="nav nav-stacked nav-list">
+        <!-- <li> <a data-toggle="collapse" href="#firstLink"><strong>PORTRAITS</strong></a>
+          <ul id="firstLink" class="collapse">
+            <li class="accordion"><a href="tony-riku.html">Tony's KH Riku</a></li>
+          </ul>
+        </li>
+        <li> <a data-toggle="collapse" href="#thirdLink"><strong>SPECIAL EVENTS</strong></a>
+          <ul id="thirdLink" class="collapse">
+            <li class="accordion"><a href="kim-tony.html">Kim &amp; Tony</a></li>
+            <li class="accordion"><a href="anabell.html">Anabell's Quinceanera</a></li>
+            <li class="accordion"><a href="danjoy.html">DanJoy</a></li>
+          </ul>
+        </li>
+        <li> <a data-toggle="collapse" href="#secondLink"><strong>GRADUATION</strong></a>
+          <ul id="secondLink" class="collapse">
+            <li class="accordion"><a href="sandy-thanh-grad.html">Sandy &amp; Thanh's Graduation</a></li>
+          </ul>
+        </li> -->
+        					<!-- <li><span>&nbsp;</span></li> -->
+        <!-- <li><a href="about.html"><strong>ABOUT</strong></a> </li>
+        <li><a href="faq.html"><strong>FAQ</strong></a></li>
+        <li><a href="contact.html"><strong>CONTACT</strong></a></li>
+				<li><span>&nbsp;</span></li>
+				 -->
+
+				<li><a href="tony-riku.html">Tony's KH Riku</a></li>
+				<li><a href="kim-tony.html">Kim &amp; Tony</a></li>
+				<li><a href="anabell.html">Anabell's Quinceanera</a></li>
+				<li><a href="danjoy.html">DanJoy</a></li>
+				<li><a href="sandy-thanh-grad.html">Sandy &amp; Thanh's Graduation</a></li>
+
+        <li class="icons">
+          <span>
+								<a href="https://www.yelp.com/biz/josiah-heng-photography-san-jose" target="_blank"><i class="fa fa-yelp fa-lg" aria-hidden="true"></i></a>
+								<a href="https://www.flickr.com/photos/thewindwaker" target="_blank"><i class="fa fa-flickr fa-lg" aria-hidden="true"></i></a>
+								<a href="https://www.instagram.com/josiahhengphoto/?hl=en" target="_blank"> <i class="fa fa-instagram fa-lg" aria-hidden="true"></i></a>
+						</span>
+        </li>
+      </ul>
+      <!-- ./nav-list -->
+    </article>
+
+  </ul>
+  <!-- ./sidebar-bar -->
+
+</section>
+<!-- /#sidebar-wrapper -->

@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, shrink-to-fit=no, initial-scale=1">
+	<meta name="description" content="">
+	<meta name="author" content="">
+
+	<title>Josiah Heng Photography</title>
+
+	<!-- Bootstrap Core CSS -->
+	<link href="../css/app.css" rel="stylesheet">
+
+	<!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries 
+	<!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+	<!--[if lt IE 9]>
+        <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+        <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+
+</head>
+
+<body>
+
+	<div id="wrapper">
+
+		<!-- Sidebar -->
+		<section id="sidebar-wrapper">
+			<ul class="sidebar-nav">
+				<li class="sidebar-brand">
+					<a href="../index.html#">
+						<div class="logo-resize">
+							<img style="width: 100px; height: 87px;" src="../img/new-logo.png">
+						</div>
+					</a>
+				</li>
+
+				<article>
+					<ul class="nav nav-stacked nav-list">
+						<li> <a data-toggle="collapse" href="#firstLink"><strong>PORTRAITS</strong></a>
+							<ul id="firstLink" class="collapse">
+								<li class="accordion"><a href="/pages/tony-riku.html">Tony's KH Riku</a></li>
+							</ul>
+						</li>
+						<li> <a data-toggle="collapse" href="#secondLink"><strong>GRADUATION</strong></a>
+							<ul id="secondLink" class="collapse">
+								<li class="accordion"><a href="/pages/sandy-thanh-grad.html">Sandy &amp; Thanh's Graduation</a></li>
+							</ul>
+						</li>
+						<li> <a data-toggle="collapse" href="#thirdLink"><strong>SPECIAL EVENTS</strong></a>
+							<ul id="thirdLink" class="collapse">
+								<li class="accordion"><a href="/pages/kim-tony.html">Kim &amp; Tony</a></li>
+								<li class="accordion"><a href="/pages/anabell.html">Anabell's Quinceanera</a></li>
+								<li class="accordion"><a href="/pages/danjoy.html">DanJoy</a></li>
+							</ul>
+						</li>
+						<!--					<li><span>&nbsp;</span></li>-->
+						<li><a href="/pages/about.html"><strong>ABOUT</strong></a> </li>
+						<li><a href="/pages/faq.html"><strong>FAQ</strong></a></li>
+						<li><a href="/pages/contact.html"><strong>CONTACT</strong></a></li>
+						<!--					<li><span>&nbsp;</span></li>-->
+
+						<li class="icons">
+							<span>
+						<a href="https://www.yelp.com/biz/josiah-heng-photography-san-jose" target="_blank"><i class="fa fa-yelp fa-lg" aria-hidden="true"></i></a>
+						<a href="https://www.flickr.com/photos/thewindwaker" target="_blank"><i class="fa fa-flickr fa-lg" aria-hidden="true"></i></a>
+						<a href="https://www.instagram.com/josiahhengphoto/?hl=en" target="_blank"> <i class="fa fa-instagram fa-lg" aria-hidden="true"></i></a>
+						</span>
+						</li>
+					</ul>
+					<!-- ./nav-list -->
+				</article>
+
+			</ul>
+			<!-- ./sidebar-bar -->
+
+		</section>
+		<!-- /#sidebar-wrapper -->
+
+		<!-- Page Content -->
+		<section id="page-content-wrapper">
+
+			<div id="toggle-button">
+				<a href="index.html#menu-toggle" id="menu-toggle" class="nav-toggle"><span></span></a>
+			</div>
+
+
+			<!-- HERO IMAGE -->			
+<!--
+			<div class="container-fluid">
+					<a class="jumbotron jumbotron-fluid img-responsive swipebox thumbnail" rel="gallery1" href="https://c2.staticflickr.com/6/5664/31205043905_b81c27b84f_b.jpg">
+					</a>
+-->
+
+			<!--  TEXT OVERLAY -->
+			<!--				<div class="row">-->
+			<!--					<div class="col-xs-12">-->
+			<!--						<h1>Tony's KH Riku</h1>-->
+			<!--					</div>-->
+			<!--				</div>-->
+
+<!--						</div>-->
+
+
+			<div class="container-fluid">
+				<div class="masonry">
+					
+					<div class="brick">
+						<a class="swipebox thumbnail" rel="gallery1" href="../img/photoshoots/danjoy/dj1.jpg"> <img class="img-responsive" src="../img/photoshoots/danjoy/dj1.jpg" alt="" /> </a>
+					</div>
+					
+					
+
+					
+				</div>
+				<!-- .masonry-->
+			</div>
+			<!-- /.container -->
+
+
+		<footer>
+			<div class="container-fluid"></div>
+				<p class="text-center">Copyright &copy; 2017 Josiah Heng Photography. All Rights Reserved. All Images and content are protected under copyright law</p>
+			</div>
+		</footer>
+	
+		</section>
+		<!-- /#page-content-wrapper -->
+
+	</div>
+	<!-- /#wrapper -->
+
+
+
+
+	<!-- Modernizr -->
+	<script src="../js/vendor/modernizr-2.8.3-respond-1.4.2.min.js"></script>
+
+	<!-- jQuery library -->
+	<script src="../js/vendor/jquery-2.1.0.min-min.js"></script>
+
+	<!-- Bootstrap Core JavaScript -->
+	<script src="../bower_components/bootstrap-sass/assets/javascripts/bootstrap.js"></script>
+
+	<script src="https://use.fontawesome.com/cb37d7b274.js"></script>
+
+	<!-- SWIPEBOX -->
+	<script src = "../js/vendor/ios-orientationchange-fix-min.js" ></script>
+	<script src="../js/swipebox/jquery.swipebox.js"></script>
+	<script type="text/javascript">
+		$(document).ready(function() {
+
+			/* Basic Gallery */
+			$('.swipebox').swipebox();
+
+		});
+	</script>
+
+
+	<script>
+		// Hamburger menu animation
+		document.querySelector(".nav-toggle").addEventListener("click", function() {
+			this.classList.toggle("active");
+		});
+
+		// Menu Toggle Script
+		$("#menu-toggle").click(function(e) {
+			e.preventDefault();
+			$("#wrapper").toggleClass("toggled");
+		});
+	</script>
+
+
+</body>
+
+</html>

@@ -3,28 +3,9 @@
 {% import "_modules/link/link.nunjucks" as link %}
 
 {% block content %}
-{# <div class="main-container">
-  <div class="yeogurt-info">
-    <h1>Welcome to Yeogurt!</h1>
-    <p>
-      Take a look at the {{link.content({
-        href: 'https://github.com/larsonjj/generator-yeogurt#yeogurt-generator---',
-        text: 'documentation'
-      })}} and start mixing up something awesome.
-    </p>
-    <p>
-      <img src="images/yeogurt-swirl.png" width="75px" class="logo" />
-    </p>
-  </div>
-</div>
-<code class="version">v2.0.0</code> #}
+	<div id="wrapper">
 
-
-
-<div id="wrapper">
-
-	{% include "_layouts/nav.nunjucks" %}
-
+		{% include "_layouts/nav.nunjucks" %}
 
 		<!-- Page Content -->
 		<section id="page-content-wrapper">
@@ -33,16 +14,26 @@
 				<a href="index.html#menu-toggle" id="menu-toggle" class="nav-toggle"><span></span></a>
 			</div>
 
+
 			<!-- RETURN TO TOP - START -->
 			<!-- Chevron up icon -->
 			<link href="//netdna.bootstrapcdn.com/font-awesome/3.2.1/css/font-awesome.css" rel="stylesheet">
 
-			<!-- HERO IMAGE -->
+			<!-- Test the scroll -->
+			<!--
+			<div>
+				<h3>Scroll down</h3>
+				<h3><i class="icon-arrow-down"></i>
+			</div>
+			-->
+			
+			
+			<!-- HERO IMAGE -->			
 			<!--
 			<div class="container-fluid">
 					<a class="jumbotron jumbotron-fluid img-responsive swipebox thumbnail" rel="gallery1" href="https://c2.staticflickr.com/6/5664/31205043905_b81c27b84f_b.jpg">
 					</a>
--->
+			-->
 
 			<!--  TEXT OVERLAY -->
 			<!--				<div class="row">-->
@@ -51,12 +42,12 @@
 			<!--					</div>-->
 			<!--				</div>-->
 
-			<!--						</div>-->
+			<!-- </div> -->
 
 
 			<div class="container-fluid">
 				<div class="masonry">
-
+					
 					<div class="brick">
 						<a class="swipebox thumbnail" rel="gallery1" href="https://c6.staticflickr.com/6/5515/31205041205_b9e73c9872_b.jpg"> <img class="img-responsive" src="https://c6.staticflickr.com/6/5515/31205041205_b9e73c9872_b.jpg" alt="" /> </a>
 					</div>
@@ -81,15 +72,14 @@
 					<div class="brick">
 						<a class="swipebox thumbnail" rel="gallery1" href="https://c6.staticflickr.com/6/5836/31091137381_c966de2a62_b.jpg"> <img class="img-responsive" src="https://c6.staticflickr.com/6/5836/31091137381_c966de2a62_b.jpg" alt="" /> </a>
 					</div>
-
-				</div>
+			
 				<!-- .masonry-->
 			</div>
 			<!-- /.container -->
 
 	{% include "_layouts/footer.nunjucks" %}
 
-	</div><!-- /.wrapper -->
-		
+	</div>
+	<!-- /#wrapper -->
 
 {% endblock %}
