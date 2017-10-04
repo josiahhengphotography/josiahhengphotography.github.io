@@ -29,7 +29,7 @@
 				<li class="sidebar-brand">
 					<a href="index.html">
 						<div class="logo-resize">
-							<img style="width: 100px; height: 87px;" src="img/new-logo.png">
+							<img style="width: 100px; height: 87px;" src="images/new-logo.png">
 						</div>
 					</a>
 				</li>
@@ -163,8 +163,7 @@
 
 			<footer>
 				<div class="container-fluid"></div>
-				<p class="text-center">Copyright &copy; 2017 Josiah Heng Photography. All Rights Reserved. All Images and content are protected under copyright
-					law</p>
+				<p class="text-center">Copyright &copy; 2017 Josiah Heng Photography. All Rights Reserved.</p>
 				</footer>
 	</div><!-- /.wrapper -->
 

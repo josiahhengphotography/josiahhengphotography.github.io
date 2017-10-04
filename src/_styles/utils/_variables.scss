@@ -5,13 +5,12 @@ $fontPrimary: "Trebuchet MS";
 
 $fontSideNav: 'Muli', sans-serif;
 
-$fontSecondary: "Trebuchet MS", "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", Tahoma, sans-serif;
+// $fontSecondary: "Trebuchet MS", "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", Tahoma, sans-serif;
 
-@font-face {
-    font-family: "Trebuchet MS";
-    src: url(../../fonts/Trebuchet-MS.ttf);
-//    font-weight: 400;
-}
+// @font-face {
+//     font-family: "Trebuchet MS";
+//     src: url(../../fonts/Trebuchet-MS.ttf);
+// }
 
 @import url('https://fonts.googleapis.com/css?family=Muli');
 
@@ -24,13 +23,4 @@ $colorDarkGray: #414042;
 $hoverGray: #999999;
 
 
-
-
-/* SOURCE LOCATION
-   ----------------------------- */
-// cannot put variable in html - img tag
-//$logoPNG: "new-logo.png"; 
-//$logoSVG
-
-		
 
